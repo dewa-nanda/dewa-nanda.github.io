@@ -14,9 +14,18 @@
     color: #3C3633;
 }
 
+#certificate{
+    background-color: #E0CCBE;
+    color: #3C3633;
+}
+
 .font-home{
     border: 1px solid #31304D;
     width: 35%;
+}
+
+body{
+    background-color: #EEEDEB;
 }
 
 header, footer{
