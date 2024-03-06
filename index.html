@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>TypeWriter</title>
+        <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header class="border-b-2 p-3 flex justify-around font-serif">
+            <div class="flex">
+                <h1 class="text-3xl">KET</h1>
+            </div>
+            <navbar class="flex gap-5 items-center">
+                <a class="duration-500 hover:border-b-4 hover:border-b-orange-200">Home</a>
+                <a class="duration-500 hover:border-b-4 hover:border-b-orange-200">About Me</a>
+                <a  class="duration-500 hover:border-b-4 hover:border-b-orange-200">Certificate</a>
+                <a  class="duration-500 hover:border-b-4 hover:border-b-orange-200">Experience</a>
+            </navbar>
+        </header>
+
+        <main class="min-h-screen">
+            <section id="home" class="min-h-screen flex">
+                <div class="my-px mx-auto w-2/4 flex flex-col gap-2 justify-center">
+                    <div class="font-serif">
+                        <h1 class="text-7xl">
+                            Hello Everyone!!
+                        </h1>
+                        <h1 class="text-6xl my-2">
+                            Welcome to my small website
+                        </h1>
+                        <div class="font-home"></div>
+                        <h2 class="text-4xl my-2">
+                            I'am <span class="type-effect"></span>
+                        </h2>
+                    </div>
+                </div>
+            </section>
+
+            <section id="aboutMe" class="min-h-80 flex ">
+                <div class="my-px mx-auto w-2/4 flex flex-col gap-2 justify-center">
+                    <div class="flex gap-4">
+                        <div class="basis-3/4">
+                            <h1 class="text-4xl border-b-2 pb-2 mb-2 bold">
+                                Dewa Putra Hernanda
+                            </h1>
+                            <p class="leading-relaxed ">
+                                I am a passionate and creative undergraduate student pursuing a degree in Ahmad Dahlan University with a focus on Informatics Enginering.
+                            </p>
+                            <div>
+                                
+                            </div>
+                        </div>
+
+                        <div class="basis-1/5 flex flex-col justify-center item-center">
+                            <img src="./src/image-profile.jpg" class="rounded-full" height="120px" width="120px">
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="border-t-2 py-2">
+            <div class="flex justify-center">
+                <p class="text-center">
+                    Made with ❤️ by Dewa Putra Hernanda
+                </p>
+            </div>
+        </footer>
+    </body>
+    
+
+    <script src="script.js"></script>
+</html>

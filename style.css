@@ -1,0 +1,25 @@
+#h-but{
+    background-color: beige;
+    width: 100px;
+    height: 50px;
+}
+
+#home{
+    background-color: #EEEDEB;
+    color: #352F44;
+}
+
+#aboutMe{
+    background-color: #E0CCBE;
+    color: #3C3633;
+}
+
+.font-home{
+    border: 1px solid #31304D;
+    width: 35%;
+}
+
+header, footer{
+    background-color: #3C3633;
+    color: #EEF5FF;
+}
